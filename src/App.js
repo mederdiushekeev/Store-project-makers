@@ -1,11 +1,13 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import GlobalPage from "./components/GlobalPage/GlobalPage";
 
 const App = () => {
   return (
     <div>
-      <Routes>
-        <Route></Route>
-      </Routes>
+      <BrowserRouter>
+      <GlobalPage/>
+      </BrowserRouter>
     </div>
   );
 };
