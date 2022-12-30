@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 
 const Depatments = () => {
   return (
-    <div>
+    <div className="department">
       <button id="burger_btn">
         <BiMenu style={{ width: "1.3rem", height: "1.3rem" }} />
         All Department
