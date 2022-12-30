@@ -1,0 +1,45 @@
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+#burger_btn{
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 15rem;
+  height: 2.3rem;
+  border: none;
+  background-color: #7FAD39;
+  color: white;
+}
+
+#categories_inp{
+  height: 2.3rem;
+  width: 40rem;
+  border: 0.01rem solid rgba(0, 0, 0, 0.178);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#categories_btn{
+  height: 100%;
+  border: none;
+  background-color: white;
+  font-weight: 800;
+}
+
+#search_btn{
+  height: 100%;
+  border: none;
+  font-weight: 600;
+  color: white;
+  background-color: #7FAD39;
+}
+
+#search_inp{
+  border: none;
+}
