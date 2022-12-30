@@ -1,19 +1,21 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
-.navigation{
+
+.inner_navigation {
   display: flex;
   justify-content: space-between;
 }
 
-.department{
+.department {
   width: 20%;
   margin-left: 1rem;
 }
 
-#burger_btn{
+#burger_btn {
   display: flex;
   padding: 0;
   justify-content: space-around;
@@ -21,11 +23,11 @@
   width: 15rem;
   height: 3rem;
   border: none;
-  background-color: #7FAD39;
+  background-color: #7fad39;
   color: white;
 }
 
-.block_search{
+.block_search {
   border: 0.01rem solid rgba(0, 0, 0, 0.307);
   width: 45rem;
   height: 3rem;
@@ -36,7 +38,7 @@
   color: rgba(0, 0, 0, 0.307);
 }
 
-#cat_btn{
+#cat_btn {
   height: 100%;
   border: none;
   width: 25%;
@@ -48,7 +50,7 @@
   align-items: center;
 }
 
-#search_inp{
+#search_inp {
   width: 50%;
   height: 100%;
   border: none;
@@ -56,16 +58,16 @@
   font-weight: 600;
 }
 
-#search_btn{
+#search_btn {
   height: 100%;
   border: none;
-  background-color: #7FAD39;
+  background-color: #7fad39;
   width: 15%;
   color: white;
   font-weight: 600;
 }
 
-#communication_call-icon{
+#communication_call-icon {
   background-color: #f5f5f5;
   display: flex;
   justify-content: center;
@@ -76,23 +78,35 @@
   margin-right: 1rem;
 }
 
-.communication{
+.communication {
   display: flex;
   align-items: center;
   width: 15%;
 }
 
-#call-number{
+#call-number {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   margin-bottom: 0.4rem;
 }
 
-#call-sup{
+#call-sup {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.307);
+}
+
+
+.depart_comps{
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 15rem;
+  border: 0.01rem solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.depart_comp{
+  margin-bottom: 0.5rem;
 }
