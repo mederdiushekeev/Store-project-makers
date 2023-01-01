@@ -1,0 +1,31 @@
+.container {
+  height: 50px;
+  background-color: black;
+  color: #fff;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.left-side {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.center-links {
+  display: flex;
+  justify-content: space-between;
+}
+.center-links > a {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 25px;
+}
+.right-side > select {
+  font-size: 15px;
+  margin-left: 20px;
+}
+.right-side > button {
+  font-size: 20px;
+}
