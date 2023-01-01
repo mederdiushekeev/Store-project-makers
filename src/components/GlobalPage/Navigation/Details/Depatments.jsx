@@ -8,9 +8,7 @@ const Depatments = () => {
       <button id="burger_btn">
         <BiMenu style={{ width: "1.3rem", height: "1.3rem" }} />
         All Department
-        <BiChevronDown
-          style={{ width: "1.3rem", height: "1.3rem" }}
-        />
+        <BiChevronDown style={{ width: "1.3rem", height: "1.3rem" }} />
       </button>
     </div>
   );

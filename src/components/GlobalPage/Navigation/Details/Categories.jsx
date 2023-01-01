@@ -10,11 +10,7 @@ const Categories = () => {
           <BiChevronDown style={{ width: "2rem", height: "2rem" }} />
         </button>
         |
-        <input
-          id="search_inp"
-          type="text"
-          placeholder="What do you need?"
-        />
+        <input id="search_inp" type="text" placeholder="What do you need?" />
         <button id="search_btn">SEARCH</button>
       </div>
     </div>
