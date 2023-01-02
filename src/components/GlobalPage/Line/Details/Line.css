@@ -1,31 +1,51 @@
 .container {
-  height: 50px;
+  height: 47px;
   background-color: black;
+  font-size: 12px;
   color: #fff;
 }
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1088px;
+  margin: auto;
+  padding: 12px 0;
 }
+
 .left-side {
   display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-  font-size: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
 .center-links {
   display: flex;
   justify-content: space-between;
+  margin-left: 25%;
 }
 .center-links > a {
-  color: #fff;
-  font-size: 25px;
   margin-left: 25px;
 }
-.right-side > select {
-  font-size: 15px;
-  margin-left: 20px;
+.left-side > span > svg {
+  margin-right: 10px;
 }
-.right-side > button {
-  font-size: 20px;
+
+.left-side > svg {
+  margin: 0 10px;
+}
+/* center side start */
+.line_select {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+.right-side {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side > svg {
+  margin: 0 20px;
+}
+.right-side > a {
+  margin: 0 20px;
 }
