@@ -9,9 +9,9 @@ const Blog = () => {
   }, []);
 
   return (
-    <>
-      <div className="blog-container">
-        <h4 className="blog-main-header">From The Blog</h4>
+    <div className="blog-container">
+      <h4 className="blog-main-header">From The Blog</h4>
+      <div className="blog-card">
         {products.map((item) => (
           <div key={item.id} className="blog-content">
             <img src={item.img} alt="" />
@@ -24,7 +24,7 @@ const Blog = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

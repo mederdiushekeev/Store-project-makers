@@ -8,6 +8,16 @@
   max-width: 367px;
   max-height: 140px;
 }
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-content > img {
+  width: 100%;
+  height: 100%;
+  max-width: 367px;
+  max-height: 259px;
+}
 .blog-main-header {
   font-size: 34px;
   text-align: center;
