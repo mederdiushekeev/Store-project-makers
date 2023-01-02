@@ -1,3 +1,16 @@
 {
-  "products": []
+  "products": [
+    {
+      "img": "https://images.pexels.com/photos/13945391/pexels-photo-13945391.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "head": "Busting Salad Myths: Eat a Well-Built Salad (If You Want To)",
+      "descr": "This is usually said when someone is trying to lose weight or be “super healthy.” First, to lose weight, it is widely understood that we must burn more calories than we eat. Thus Read More",
+      "id": 6
+    },
+    {
+      "img": "https://images.pexels.com/photos/6829488/pexels-photo-6829488.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "head": "Hello it's header",
+      "descr": "this is description",
+      "id": 7
+    }
+  ]
 }

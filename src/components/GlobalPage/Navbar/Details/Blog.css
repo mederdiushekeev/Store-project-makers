@@ -1,0 +1,19 @@
+.blog-container {
+  width: 100%;
+  max-width: 1088px;
+  margin: auto;
+}
+.blog-content {
+  width: 100%;
+  max-width: 367px;
+  max-height: 140px;
+}
+.blog-main-header {
+  font-size: 34px;
+  text-align: center;
+  margin: auto;
+}
+.blog-header {
+  margin: 15px auto;
+  font-size: 20px;
+}

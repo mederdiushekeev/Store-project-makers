@@ -1,10 +1,10 @@
-.container {
+.line-container {
   height: 47px;
   background-color: black;
   font-size: 12px;
   color: #fff;
 }
-.content {
+.line-content {
   display: flex;
   justify-content: space-between;
   width: 100%;

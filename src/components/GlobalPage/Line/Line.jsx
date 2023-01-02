@@ -1,17 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Line/Details/Line.css";
-import { BsFacebook } from "react-icons/bs";
-import { ImWhatsapp } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
-import { SlSocialVkontakte } from "react-icons/sl";
-import { RxSlash } from "react-icons/rx";
-import { FiLogIn } from "react-icons/fi";
 
 const Line = () => {
   return (
-    <div className="container">
-      <div className="content">
+    <div className="line-container">
+      <div className="line-content">
         <div className="left-side">
           <span>
             <svg
@@ -113,7 +107,6 @@ const Line = () => {
           >
             <path d="M1 0V14" stroke="white" stroke-opacity="0.5" />
           </svg>
-
           <Link to="autorization">
             <svg
               width="16"
