@@ -16,7 +16,7 @@ const Blog = () => {
           <div key={item.id} className="blog-content">
             <img src={item.img} alt="" />
             <div className="data-comment">
-              <div className="data"></div>
+              <div className="data">{item.date}</div>
               <div className="comment"></div>
             </div>
             <h2 className="blog-header">{item.head}</h2>
